@@ -12,6 +12,6 @@ $ npm install
 
 Step 2
 
-Run the tests
+Run the tests with chrome
 
-$ npm run test
+$ npm start

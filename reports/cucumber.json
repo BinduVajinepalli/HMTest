@@ -1,0 +1,118 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Get the estimate for a property in a given postcode",
+    "line": 1,
+    "id": "get-the-estimate-for-a-property-in-a-given-postcode",
+    "tags": [],
+    "uri": "features/hostmaker-estimate.feature",
+    "elements": [
+      {
+        "id": "get-the-estimate-for-a-property-in-a-given-postcode;search-for-a-train-from-london-to-paris",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Search for a train from London to Paris",
+        "tags": [
+          {
+            "name": "@demo",
+            "line": 3
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I am on Hostmaker website",
+            "match": {
+              "location": "step_definitions/steps.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4211
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I enter my postcode \"N1 9PD\"",
+            "match": {
+              "location": "step_definitions/steps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 168
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I select \"White Lion Street\" as my address",
+            "match": {
+              "location": "step_definitions/steps.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 634
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I select \"2 bedrooms\" from the number of bedrooms option",
+            "match": {
+              "location": "step_definitions/steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I enter email address as \"test@test.com\"",
+            "match": {
+              "location": "step_definitions/steps.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 398
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I click calculate",
+            "match": {
+              "location": "step_definitions/steps.js:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1355
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "I should see the estimate value is between \"1075\" and \"1200\"",
+            "match": {
+              "location": "step_definitions/steps.js:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
